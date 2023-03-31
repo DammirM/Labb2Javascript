@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/nav.css" />
+    <link rel="stylesheet" href="CSS/resume.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="resume.html" class="Active">Resume</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left-side">
+          <div class="profiletext">
+            <div class="image">
+              <img src="bilder/CVBILD.jfif" alt="profilbild" />
+            </div>
+            <h2>Damir Mehic<br /><span>Junior Developer</span></h2>
+          </div>
+
+          <div class="contactinfo">
+            <h3 class="title">Contact info</h3>
+            <ul>
+              <li>
+                <span class="icon"
+                  ><i class="fa fa-phone" aria-hidden="true"></i></i
+                ></span>
+                <span class="text" id="phones"></span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <span class="text" id="emails"></span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                <span class="text"  id="links"></span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                <span class="text" id="faces"></span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contactinfo education">
+            <h3 class="title">education</h3>
+            <ul>
+              <li id="table">
+                <p id="table"></p>
+                <h5 id="eduyear"></h5>
+                <h4 id="edudegree"></h4>
+                <h4 id="eduschool"></h4>
+              </li>
+              <li>
+                <h5 id="eduyear1"></h5>
+                <h4 id="edudegree1"></h4>
+                <h4 id="eduschool1"></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="about">
+            <h2 class="title2"> About Me</h2>
+            <p class="para"></p>
+          </div>
+          <div class="about">
+            <h2 class="title2">Experiece</h2>
+            <div class="box">
+              <div class="year-company">
+                <h5 id="cyear"></h5>
+                <h5 id="company"></h5>
+              </div>
+              <div class="text">
+                <h4 id="cposition"></h4>
+                <p id="cabout"></p>
+              </div>
+            </div><div class="box">
+              <div class="year-company">
+                <h5 id="cyear1"></h5>
+                <h5 id="company1"></h5>
+              </div>
+              <div class="text">
+                <h4 id="cposition1"></h4>
+                <p id="cabout1"></p>
+              </div>
+            </div><div class="box">
+              <div class="year-company">
+                <h5 id="cyear2"></h5>
+                <h5 id="company2"></h5>
+              </div>
+              <div class="text">
+                <h4 id="cposition2"></h4>
+                <p id="cabout2"></p>
+              </div>
+            </div><div class="box">
+              <div class="year-company">
+                <h5 id="cyear3"></h5>
+                <h5 id="company3"></h5>
+              </div>
+              <div class="text">
+                <h4 id="cposition3"></h4>
+                <p id="cabout3"></p>
+              </div>
+            </div><div class="box">
+              <div class="year-company">
+                <h5 id="cyear4"></h5>
+                <h5 id="company4"></h5>
+              </div>
+              <div class="text">
+                <h4 id="cposition4"></h4>
+                <p id="cabout4"></p>
+              </div>
+            </div>
+          <div class="about interest">
+            <h2 class="title2">Interest</h2>
+            <ul>
+              <li ><i class="fa fa-gamepad" aria-hidden="true"></i> <p id="igame"></p> </li>
+              <li ><i class="fa fa-futbol-o" aria-hidden="true"></i><p id="isports"></p> </li>
+              <li ><i class="fa fa-book" aria-hidden="true"></i> <p id="ibooks"></p> </li>
+              <li ><i class="fa fa-film" aria-hidden="true" ></i> <p id="imovies"></p> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>Damir Mehic Resume Rights</p>
+    </footer>
+
+    <script src="resumescript.js"></script>
+  </body>
+</html>

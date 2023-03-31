@@ -1,0 +1,61 @@
+{
+  "education": [
+    {
+      "year": "2005 - 2008",
+      "degree": "Gymnasium Degree",
+      "school": "Katrinelund"
+    },
+    {
+      "year": "Present",
+      "degree": ".NET",
+      "school": "varberg Campus"
+    }
+  ],
+  "contact": {
+    "email": "Damir_m87@hotmail.com",
+    "phone": "0762445988",
+    "link": "Linkedin/Damir",
+    "face": "Facebook/Damir"
+  },
+  "interest": {
+    "game": "Gaming",
+    "Sports": "Football",
+    "books": "Read",
+    "movies": "Movies"
+  },
+  "about": {
+    "me": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque a tempora blanditiis optio iusto labore fugit <br> <br> quas placeat itaque distinctio necessitatibus reiciendis error earum dolorem incidunt, esse ea asperiores commodi."
+  },
+  "experience": [
+    {
+      "year": "2002 - 2008",
+      "place": "Gunnilse IS",
+      "position": "Goalkeeper",
+      "about": "Klubbens främsta tid på herrsidan är utan tvekan 1990-talet. 1989 vann laget division 2 och laget spelade sedan 1990-2000 i Division 1 och (år 2000) Superettan. 1997 tog laget tidigt en stor ledning i serien, och Allsvenskan var nära. "
+    },
+    {
+      "year": "2009 - 2014",
+      "place": "BK Häcken",
+      "position": "Goalkeeper",
+      "about": "Häcken slutade tvåa i Superettan 2008, och kvalificerade sig därmed för spel i allsvenskan 2009 som vidare blev en succé då Häcken slutade på en femteplats. Samma säsong var också Häcken nära en ny final i Svenska cupen, men semifinalen mot AIK på Råsunda förlorades i förlängningens sista minut."
+    },
+    {
+      "year": "2015 - 2018",
+      "place": "Jönköping Södra",
+      "position": "Goalkeeper",
+      "about": "J-Södra grundades 9 december 1922 och första fotbollsmatchen spelades på Hagavallen mot IF Hagapojkarna året därpå. Matchen, som spelades med åtta spelare i varje lag på grund av att planen inte var tillräckligt stor, vanns av J-Södra med 3-2."
+    },
+    {
+      "year": "2019 - 2020",
+      "place": "GAIS",
+      "position": "Goalkeeper",
+      "about": "Tiden runt slutet av första världskriget blev samtidigt början på Gais storhetstid, där klubben fram till mitten av 1930-talet hade 27 spelare i landslaget.[10] Efter kriget kunde klubben åter mönstra ordinarie lag, och man fick dessutom tillgång till Ullevi. "
+    },
+    {
+      "year": "2021 - 2022",
+      "place": "Östers IF",
+      "position": "Goalkeeper",
+      "about": "Östers IF, eller enbart Öster, är en svensk professionell fotbollsklubb från Växjö, som debuterade i Allsvenskan säsongen 1968. Klubben är medlem i Smålands Fotbollförbund och spelar sina hemmamatcher på Visma Arena.Föreningen bildades den 20 april 1930 som Östers FF. Den 15 november 1932 ombildades föreningen till Östers IF."
+    }
+  ]
+}
